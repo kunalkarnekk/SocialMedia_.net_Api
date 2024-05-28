@@ -18,6 +18,7 @@ namespace api.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IStockRepository _StockRepo;
+        
         public StockController(ApplicationDbContext context, IStockRepository StockRepo)
         {
             _context = context;
